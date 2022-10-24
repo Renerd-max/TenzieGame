@@ -78,4 +78,15 @@ main{
     #card{
         width:320px;
     }
+
+    #dies{
+        margin:auto;
+        padding: 0px;
+    }
+
+    .die{
+        width:35px;
+        height:35px;
+        margin: 7px;
+    }
 }
