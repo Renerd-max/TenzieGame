@@ -1,5 +1,6 @@
 import {React, useState, useEffect} from "react"
 import Confetti from "react-confetti"
+import "animate.css"
 import {nanoid} from "nanoid"
 import Dies from "./Die"
 
@@ -96,8 +97,8 @@ export default function App() {
                 </div>
 
                 <button id="rollButton" value="Roll" onClick={rollDice}>{tenzies? 
-                <img id="rollDice2" src={`./images/${Dices[1].src}`} />: 
-                <img id="rollDice1" src={`./images/${Dices[0].src}`} />}
+                <div id="winning"><img id="rollDice2" className="animate__animated animate__rotateOut" src={`./images/${Dices[1].src}`} /> <p className="animate__animated animate__backInDown" id="youWon">You Won!</p></div>: 
+                <img id="rollDice1" className="animate__animated animate__rotateIn" src={`./images/${Dices[0].src}`} />}
                 </button>
             </div>
             {tenzies && < Confetti />}
