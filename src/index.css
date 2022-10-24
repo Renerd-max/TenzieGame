@@ -66,10 +66,6 @@ main{
     height:140px;
 }
 
-#rollDice1, #rollDice2{
-    margin:auto;
-}
-
 #header{
     color:white;
     margin: auto;
@@ -207,5 +203,9 @@ main{
     #rollDice2{
         width:70px;
         height:70px;
+    }
+
+    #rollDice1, #rollDice2{
+        margin-right: 5px;
     }
 }
