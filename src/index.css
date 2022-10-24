@@ -50,9 +50,11 @@ main{
     display: block;
     margin:auto;
     margin-top:0px;
+    padding:auto 10%;
     width:150px;
     height:150px;
     cursor: pointer;
+    text-align: center;
 }
 
 #rollDice1{
