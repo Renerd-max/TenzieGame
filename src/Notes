@@ -19,9 +19,9 @@ NEW GAME
 
 When you select new game, you will see the interface of the game.
 - Select boards allows you to select a new theme. (The boards are displayed in flex)
-- Free play (unlimited time to play) - Displayed on a board
-- Time Attack (random time limit between minimum and maximum) - Displayed on a board
-- Splitzi (First row is the same number, second row is the same number) - Displayed on a board
+- Free play (Choose your number. unlimited time to play) - Displayed on a board
+- Time Attack (Choose your number. random time limit between minimum and maximum) - Displayed on a board
+- Splitzi ( choose two number. First row is the same number, second row is the same number) - Displayed on a board
 - Numero (Get 3, 4,5, or 6 letters in a row before the time elapse. The higher the number, the higher the score)
 - Team Tenzies (takes you to play online) - Displayed on a 
 

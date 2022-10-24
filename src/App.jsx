@@ -68,6 +68,20 @@ export default function App() {
     }, 
     [allDice])
 
+    const Dices = [
+        {
+            id:1,
+            name:"red dice",
+            src:"dice-1.png"
+        },
+    
+        {
+            id:2,
+            name:"white dice",
+            src:"dice-2.png"
+        }
+    ]
+
 
     return (
         <main id="main">
@@ -81,7 +95,10 @@ export default function App() {
                 {diceElements} 
                 </div>
 
-                <button id="rollButton" value="Roll" onClick={rollDice}>{tenzies? "New Game": "Roll"}</button>
+                <button id="rollButton" value="Roll" onClick={rollDice}>{tenzies? 
+                <img id="rollDice2" src={`./images/${Dices[1].src}`} />: 
+                <img id="rollDice1" src={`./images/${Dices[0].src}`} />}
+                </button>
             </div>
             {tenzies && < Confetti />}
         </main>

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 
 export default function Dies(props) {
 
-   const customStyle = {backgroundColor: props.isHeld? "#59E391": "white"}
+   const customStyle = {backgroundColor: props.isHeld? "green": "white"}
 
    const dotOne = <div id="dotOne" className="dot"></div>
 
