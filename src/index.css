@@ -188,4 +188,19 @@ main{
     #dotTwo{
         margin-left:12%;
     }
+
+    #rollButton{
+        width:75px;
+        height:75px;
+    }
+
+    #rollDice1{
+        width:70px;
+        height:60px;
+    }
+    
+    #rollDice2{
+        width:70px;
+        height:70px;
+    }
 }
