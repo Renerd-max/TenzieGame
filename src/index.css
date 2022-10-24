@@ -50,7 +50,6 @@ main{
     display: block;
     margin:auto;
     margin-top:0px;
-    padding:auto 10%;
     width:150px;
     height:150px;
     cursor: pointer;
@@ -65,6 +64,10 @@ main{
 #rollDice2{
     width:140px;
     height:140px;
+}
+
+#rollDice1, #rollDice2{
+    margin:auto;
 }
 
 #header{
