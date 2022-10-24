@@ -78,7 +78,7 @@ main{
 }
 
 #dotTwo{
-    margin-left:20%;
+    margin-left:15%;
     margin-top:33%;
     column-gap: 10px;
 }
@@ -177,5 +177,9 @@ main{
 
     #dotOne, #dotTwo, #dotThree{
         margin-top:38%;
+    }
+
+    #dotTwo{
+        margin-left:12%;
     }
 }
