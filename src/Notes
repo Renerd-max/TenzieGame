@@ -1,0 +1,42 @@
+FEATURES
+
+-Change the numbers to dots.
+-Change the role button to a dice - Which change to different objects depending on your achievements.
+-Upon win, display an animated ("You Win") on the top of the screen. And ("Try Again") when you lose. These animations fades away slowly.
+- Display Current score on the screen. And if the user choose {Numero, Splitzi, Time attack} Displays the remaining time also.
+
+
+HOME PAGE
+
+The home page will contain 10 animated rolling dice. Here, you can select 
+
+1. New Game
+2. Continue last saved game (This loads the last saved game)
+3. Play Online
+4. How to play
+
+NEW GAME
+
+When you select new game, you will see the interface of the game.
+- Select boards allows you to select a new theme. (The boards are displayed in flex)
+- Free play (unlimited time to play) - Displayed on a board
+- Time Attack (random time limit between minimum and maximum) - Displayed on a board
+- Splitzi (First row is the same number, second row is the same number) - Displayed on a board
+- Numero (Get 3, 4,5, or 6 letters in a row before the time elapse. The higher the number, the higher the score)
+- Team Tenzies (takes you to play online) - Displayed on a 
+
+PLAY ONLINE
+
+Option One - Search for an opponents.
+
+The first person to finish the challenge wins. Challenge mode will be randomly selected between the 4 mode.
+
+Option Two - Connect with friends
+
+You choose the mode, and the first person to finish wins.
+
+My Account
+
+-Best Scores. - List the best score for each mode.
+-Achievements. - List achievements earned from special game events like getting 3, 5, 7, 9, 10 similar dies at once. Remaining unbeaten 3, 7, 9 11, 22 times in a row. Each time you have the achievement, your die will change to it.
+-Tournament History
