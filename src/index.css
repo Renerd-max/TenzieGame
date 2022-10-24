@@ -206,6 +206,7 @@ main{
     }
 
     #rollDice1, #rollDice2{
-        margin-right: 5px;
+        display: block;
+        margin: auto;
     }
 }
