@@ -97,4 +97,8 @@ main{
     main{
         padding:30px 20px;
     }
+
+    #rollButton{
+        font-size: 20px;
+    }
 }
