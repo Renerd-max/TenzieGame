@@ -65,7 +65,7 @@ main{
     text-align: center;
 }
 
-#dotOne, #dotTwo, #dotThree, #dotFive, #dotSix{
+#dotOne, #dotTwo, #dotThree, #dotSix{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -150,5 +150,30 @@ main{
 
     #rollButton{
         font-size: 20px;
+    }
+
+    .dot{
+        width:6px;
+        height:6px;
+    }
+
+    .die{
+        padding: 6px 5px;
+    }
+
+    #dotSix{
+        gap: 18px 5px;
+    }
+
+    #dotFour{
+        gap:18px 15px;
+    }
+
+    #fiveUp, #fiveBottom{
+        gap: 15px;
+    }
+
+    #dotOne, #dotTwo, #dotThree{
+        margin-top:38%;
     }
 }
