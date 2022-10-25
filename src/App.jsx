@@ -69,19 +69,7 @@ export default function App() {
     }, 
     [allDice])
 
-    const Dices = [
-        {
-            id:1,
-            name:"red dice",
-            src:"dice-1.png"
-        },
-    
-        {
-            id:2,
-            name:"white dice",
-            src:"dice-2.png"
-        }
-    ]
+    const Dice2 = () => (!tenzies? <img id="rollDice1" className="animate__animated animate__rotateIn" src="./images/dice-1.png" /> : <img id="rollDice1" className="animate__animated animate__rotateOut" src="./images/dice-1.png" /> );
 
 
     return (
@@ -98,12 +86,10 @@ export default function App() {
 
                 <button id="rollButton" value="Roll" onClick={rollDice}>{tenzies? 
                 <div id="winning"><img id="rollDice2" className="animate__animated animate__rotateOut" src="./images/dice-2.png" /> <img className="animate__animated animate__backInDown" id="youWon" src="./images/You-won.png" /></div>: 
-                <img id="rollDice1" className="animate__animated animate__rotateIn" src="./images/dice-1.png" />}
+                Dice2() }
                 </button>
             </div>
             {tenzies && < Confetti />}
-
-            {window.innerWidth}
         </main>
     )
 }
