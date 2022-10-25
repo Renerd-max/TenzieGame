@@ -102,6 +102,8 @@ export default function App() {
                 </button>
             </div>
             {tenzies && < Confetti />}
+
+            {window.innerWidth}
         </main>
     )
 }
