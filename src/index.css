@@ -230,9 +230,8 @@ main{
     }
 
     #youWon{
-        top:15%;
-        left:7%;
-        font-size: 15px;
-        font-weight: 900;
+        top:20%;
+        left:13%;
+        width:50px;
     }
 }
