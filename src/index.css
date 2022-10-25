@@ -239,4 +239,31 @@ main{
 
 
 
+@media only screen and (max-width : 450px) {
+
+    #rollButton{
+        width:80px;
+        height:70px;
+    }
+
+    #rollDice1{
+        width:65px;
+        height:55px;
+    }
     
+    #rollDice2{
+        width:65px;
+        height:65px;
+    }
+
+    #rollDice1, #rollDice2{
+        display: block;
+        margin: auto;
+    }
+
+    #youWon{
+        top:15%;
+        left:9%;
+        width:45px;
+    }
+}
