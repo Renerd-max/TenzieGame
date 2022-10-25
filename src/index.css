@@ -252,17 +252,17 @@ main{
             width:60px;
             height:60px;
             top:15%;
-            left:15%;
+            left:10%;
         }
         
         #rollDice1, #rollDice2{
-            display: block;
             position: absolute;
         }
 
         #youWon{
-            top:10%;
-            left:2%;
+            position: absolute;
+            top:12%;
+            left:3%;
             width:50px;
         }
     }
