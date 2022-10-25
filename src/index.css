@@ -123,6 +123,10 @@ main{
     box-shadow: black 0px 50px 100px -20px, black 0px 30px 60px -30px, gray 0px -2px 6px 0px inset;
 }
 
+.animate__rotateIn:active{
+    animation-delay: 0s;
+}
+
 #winning{
     position: relative;
 }

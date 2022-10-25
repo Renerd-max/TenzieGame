@@ -97,8 +97,8 @@ export default function App() {
                 </div>
 
                 <button id="rollButton" value="Roll" onClick={rollDice}>{tenzies? 
-                <div id="winning"><img id="rollDice2" className="animate__animated animate__rotateOut" src={`./images/${Dices[1].src}`} /> <p className="animate__animated animate__backInDown" id="youWon">You Won!</p></div>: 
-                <img id="rollDice1" className="animate__animated animate__rotateIn" src={`./images/${Dices[0].src}`} />}
+                <div id="winning"><img id="rollDice2" className="animate__animated animate__rotateOut" src="./images/dice-2.png" /> <img className="animate__animated animate__backInDown" id="youWon" src="./images/You-won.png" /></div>: 
+                <img id="rollDice1" className="animate__animated animate__rotateIn" src="./images/dice-1.png" />}
                 </button>
             </div>
             {tenzies && < Confetti />}
