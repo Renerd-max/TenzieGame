@@ -234,4 +234,22 @@ main{
         left:13%;
         width:50px;
     }
+
+    @media only screen and (max-width : 450px) {
+        #rollDice1{
+            width:60px;
+            height:50px;
+        }
+        
+        #rollDice2{
+            width:60px;
+            height:60px;
+        }
+
+        #youWon{
+            top:20%;
+            left:9%;
+            width:50px;
+        }
+    }
 }
