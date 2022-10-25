@@ -235,34 +235,22 @@ main{
         width:50px;
     }
 
-    @media only screen and (max-width : 412px) {
-
-        #rollButton{
-            position: relative;
-        }
+    @media only screen and (max-width : 450px) {
 
         #rollDice1{
             width:60px;
             height:50px;
-            top:10%;
-            left:5%;
+            margin: 10% 5%;
         }
         
         #rollDice2{
             width:60px;
             height:60px;
-            top:15%;
-            left:10%;
-        }
-        
-        #rollDice1, #rollDice2{
-            position: absolute;
+            margin: 15% 10%;
         }
 
         #youWon{
-            position: absolute;
-            top:12%;
-            left:3%;
+            margin: 12% 3%;
             width:50px;
         }
     }
