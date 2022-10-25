@@ -234,6 +234,7 @@ main{
         left:13%;
         width:50px;
     }
+}
 
     @media only screen and (max-width : 450px) {
 
@@ -254,4 +255,3 @@ main{
             width:50px;
         }
     }
-}
