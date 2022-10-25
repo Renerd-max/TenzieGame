@@ -249,13 +249,13 @@ main{
     #rollDice1{
         width:65px;
         height:55px;
-        margin: 17% 8%;
+        margin: 15% 8% 15% 3%;
     }
     
     #rollDice2{
         width:65px;
         height:65px;
-        margin: 19% 10% ;
+        margin: 19% 10% 19% 2%;
     }
 
     #rollDice1, #rollDice2{
@@ -264,7 +264,7 @@ main{
 
     #youWon{
         top:17%;
-        left:1%;
+        left:0.5%;
         width:45px;
     }
 }
