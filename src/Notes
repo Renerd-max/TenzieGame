@@ -19,6 +19,8 @@ NEW GAME
 
 When you select new game, you will see the interface of the game.
 - Select boards allows you to select a new theme. (The boards are displayed in flex)
+
+
 - Free play (Choose your number. unlimited time to play. Scores continue to roundup until failed) - Displayed on a board
 - Ordered (Start from number one through six. Scores continue to roundup until failed.)
 - Time Attack (Choose your number. random time limit between minimum and maximum. Score continues to add-up until fail) - Displayed on a board

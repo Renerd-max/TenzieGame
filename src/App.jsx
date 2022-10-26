@@ -65,6 +65,12 @@ export default function App() {
         const allHeld = allDice.every(die => die.isHeld)
         const initVal = allDice[0].value
         const allSameValue = allDice.every(die => die.value === initVal)
+
+    for ( let i = 29; i < 30 > 0; i- 1 ) {
+
+        console.log(i)
+    }
+
         allHeld && allSameValue? setTenzies(true): setTenzies(false)
     }, 
     [allDice])

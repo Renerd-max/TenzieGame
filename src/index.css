@@ -240,11 +240,12 @@ main{
 @media only screen and (min-width: 300px) and (max-width: 450px) {
 
     main{
-        width:calc(358px);
+        width:100%;
+        height: auto;
     }
 
     #card{
-        width:318px;
+        width:80%;
     }
 
     #dies{
