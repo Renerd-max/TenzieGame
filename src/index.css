@@ -246,6 +246,8 @@ main{
 
     #card{
         width:80%;
+        display:block;
+        margin: auto;
     }
 
     #dies{
